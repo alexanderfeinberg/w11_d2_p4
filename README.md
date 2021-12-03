@@ -29,7 +29,7 @@ In the terminal, use `sequelize-cli` to generate a new model and associated
 migration. Name the model `Color` and define a `name` attribute of type 
 `string`.
 
-When this step is completed you should see a two files created, a migration file 
+When this step is completed you should see two files created, a migration file 
 in the __migrations__ directory and a model file in the __models__ directory.
 
 
@@ -111,8 +111,8 @@ Normally, you would test your model-level validations by inserting/
 updating/deleting data through Sequelize. But you will learn how
 to do those in future lessons.
 
-For now, a __test/test.js__ file has been been provided to test that
-you set up the validations properly. Execute this file using `npm test`.
+For now, a __test/test.js__ file has been provided to test that you set 
+up the validations properly. Execute this file using `npm test`.
 
 Expected output is included for each test, with the first two scenarios
 expected to fail your validations and the last one expected to pass.
